@@ -1,0 +1,66 @@
+/* estilos ______________________________________________________________________________________________________________________________*/
+@import url(frontPage.css);
+@import url(main.css);
+@import url(portfolio.css);
+@import url(transitions.css);
+@import url(arrowAnimation.css);
+
+/* fontes ______________________________________________________________________________________________________________________________*/
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;1,600&family=Inter:wght@400;700&display=swap');
+
+:root {
+    /* cores de fundo */
+    --cor-de-fundo-1:#000000;
+    --cor-de-fundo-2:#02132a;
+    --cor-de-fundo-3:#04214b;
+    --cor-de-fundo-4:#0c4f7e;
+    --cor-de-fundo-5:#0c4385;
+    --cor-de-fundo-6:#0951a8;
+    --cor-de-fundo-7:#005ccb;
+    --cor-de-fundo-8:#FFFFFF;
+
+    /* fontes */
+    --fonte-primaria:'Chakra Petch', sans-serif; 
+    --fonte-secundaria: 'Inter', sans-serif;
+
+    /* cores de fonte para fundo escuro */
+    --cor-fonte-azul-destaque: #2BDEFD;
+    --cor-fonte-azul-claro: #98D4DE;
+    --cor-fonte-branco-azulado: #D7F9FF;
+
+    /* cores de fonte para fundo branco */
+    --cor-fonte-azul-royal: #006eff;
+    --cor-fonte-azul-escuro: #051933;
+    --cor-fonte-verde-agua: #2BFDBE;
+    --cor-fonte-azul-pastel: #90C5DC;
+
+    /* outras cores */
+    --roxo-claro:#A56CFF;
+    --vermelho-rosa:#E81B5C;
+    --rosa:#DC6EBE;
+    --amarelo-dourado:#FFBA05;
+    --laranja:#FF8C2A;
+    --verde-escuro:#00C86F;
+    --verde-claro:#98CD39;
+    --salmao:#F16165;
+}
+
+/* estilizações gerais ____________________________________________________________________________________________________________ */
+body {
+    background-color: #ff01d0;
+    width: 100%;
+    height: auto;
+}
+
+.limiter {
+    max-width: 90%;
+}
+
+.aligner {
+    margin: 0 auto;
+}
+
+.containner {
+    width: 100%;
+}
+
