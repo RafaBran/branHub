@@ -9,3 +9,20 @@
     height: 80vh;
     border: 0px solid #ff0000;
 }
+
+.decoration2 {
+    width: 60%;
+    position: relative;
+    left: 44%;
+    top: 5%;
+}
+
+.portfolio__titulo {
+    color: #90c5dc;
+    font-family: var(--fonte-primaria);
+    font-size: 70px;
+    text-transform: uppercase;
+    position: relative;
+    left: 3%;
+    font-weight: bold;
+}

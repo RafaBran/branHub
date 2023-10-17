@@ -8,3 +8,22 @@
     height: 80vh;
     border: 0px solid #ff0000;
 }
+
+.decoration1 {
+    width: 45%;
+    position: relative;
+    left: 58%;
+    top: 90%;
+}
+
+.main__foto-de-perfil {
+    width: 250px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/profilephoto.jpg);
+    position: relative;
+    top: 15%;
+    left: 12%;
+    border: 1px solid var(--cor-fonte-azul-claro);
+}
