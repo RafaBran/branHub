@@ -1,15 +1,20 @@
 .containner2 {
     width: 100%;
-    background-color: #01080E;
+    background-color: var(--cor-de-fundo-2);
 }
 
 .main {
     width: 100%;
     height: 80vh;
-    border: 0px solid #ff0000;
 }
 
-.decoration1 {
+.main__containner_conteudo{
+    width: 80%;
+    height: 20em;
+    display: flex;
+}
+
+.main__decoration1 {
     width: 45%;
     position: relative;
     left: 58%;
@@ -17,13 +22,21 @@
 }
 
 .main__foto-de-perfil {
-    width: 250px;
-    height: 300px;
+    width: 25%;
+    height: 100%;
     background-size: cover;
     background-position: center;
     background-image: url(../images/profilephoto.jpg);
-    position: relative;
-    top: 15%;
-    left: 12%;
-    border: 1px solid var(--cor-fonte-azul-claro);
+    border: 1px solid var(--azul-claro);
 }
+
+.main__conteudo-principal {
+    border: 3px solid rgb(255, 251, 0);
+    width: 75%;
+    height: 100%;
+    float: right;
+}
+
+
+
+

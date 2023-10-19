@@ -1,13 +1,11 @@
 .containner3 {
     width: 100%;
-    background-color: #ffffff;
-
+    background-color: var(--cor-de-fundo-3);
 }
 
 .portfolio {
     width: 100%;
-    height: 80vh;
-    border: 0px solid #ff0000;
+    height: 100vh;
 }
 
 .decoration2 {
@@ -18,9 +16,9 @@
 }
 
 .portfolio__titulo {
-    color: #90c5dc;
+    color: var(--azul-pastel);
     font-family: var(--fonte-primaria);
-    font-size: 70px;
+    font-size: 4.3em;
     text-transform: uppercase;
     position: relative;
     left: 3%;

@@ -1,19 +1,18 @@
 .containner1 {
     width: 100%;
-    background-color: #061723;
+    background-color: var(--cor-de-fundo-1);
 }
 
 .front-page {
     width: 100%;
     height: 80vh;
-    border: 0px solid #ff0000;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
 span {
-    color: var(--cor-fonte-azul-claro);
+    color: var(--cor-de-fundo-3);
     font-family: var(--fonte-primaria);
     font-size: 30px;
     margin-left: 80%;
@@ -22,7 +21,7 @@ span {
 }
 
 .front-page__frase {
-    color: var(--cor-fonte-azul-destaque);
+    color: var(--azul-destaque);
     font-family: var(--fonte-primaria);
     font-size: 50px;
     margin: 0 auto;
@@ -32,7 +31,7 @@ span {
 }
 
 .front-page__frase_autor {
-    color: var(--cor-fonte-azul-claro);
+    color: var(--azul-claro);
     font-family: var(--fonte-primaria);
     font-size: 40px;
     text-align: right;
