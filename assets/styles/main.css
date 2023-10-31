@@ -1,18 +1,58 @@
 .containner2 {
     width: 100%;
     background-color: var(--cor-de-fundo-2);
+    border: 2px solid rgb(205, 50, 50);
 }
 
 .main {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
+    border: 2px solid yellowgreen;
 }
 
-.main__containner_conteudo{
-    width: 80%;
-    height: 20em;
+.main__butons {
+    position: relative;
     display: flex;
+    color: white;
+    left: 10%;
+    top: 83%;
+    gap: 0.5%    ;
 }
+
+.main__buttons_button {
+    font-family: var(--fonte-secundaria);
+    color: var(--azul-destaque);
+    font-weight: bold;
+    width: 8em;
+    height: 2em;
+    background-color: var(--cor-de-fundo-2);
+    text-align: center;
+    transition: all 1s;
+    padding: 0.4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1em;
+    text-decoration: none;
+}
+
+
+.main__buttons_button_icone {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.main__buttons_button:hover {
+    border: 1px solid white;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-de-fundo-2);
+    font-weight: bold;
+    width: 8em;
+    background-color: var(--azul-destaque);
+    text-align: center;
+
+}
+
 
 .main__decoration1 {
     width: 45%;
@@ -21,21 +61,28 @@
     top: 90%;
 }
 
-.main__foto-de-perfil {
-    width: 25%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    background-image: url(../images/profilephoto.jpg);
-    border: 1px solid var(--azul-claro);
+.main__conteudo-principal {
+    width: 80%;
+    height: 70%;
+    border: 2px solid rgb(205, 50, 179);
+    display: flex;
 }
 
-.main__conteudo-principal {
-    border: 3px solid rgb(255, 251, 0);
+.main__conteudo-principal_card {
+    border: 2px solid rgb(50, 195, 205);
+    width: 25%;
+    height: 100%;
+    background-image: url(../images/profilephoto.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main__conteudo-principal_banner {
+    border: 2px solid rgb(205, 202, 50);
     width: 75%;
     height: 100%;
-    float: right;
 }
+
 
 
 

@@ -67,8 +67,6 @@ body::-webkit-scrollbar {
     border: 2px solid var(--cor-de-fundo-2);
   }
 
-
-
 /* estilizações gerais */
   .limiter {
     max-width: 90%;
